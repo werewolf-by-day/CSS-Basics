@@ -24,9 +24,14 @@
  height: 250px;
  width: 200px;
  border-radius: 15px;
+ color: #5febf0;
  background-color: #50999c;
  display:inline-block;
  float: left;
+}
+
+#nav_menu li {
+  color: #5febf0;
 }
 
 #main_content{
@@ -51,4 +56,8 @@
  margin-top: 20px;
  padding: 20px;
  display: inline-block;
+}
+
+a{
+  color: #5febf0;
 }
