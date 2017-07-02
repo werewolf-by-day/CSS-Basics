@@ -40,11 +40,12 @@ span {
 
 #search_box {
   margin: 0px;
-  padding: 15px 30px 15px 30px;
+  padding: 10px 35px 10px 35px;
   align-content: center;
   background-color: rgb(68,68,68);
   display:inline-block;
   border-radius: 10px;
+  box-shadow: 0px 2px 1px 0px black;
 }
 
 #top_bar {
@@ -55,6 +56,7 @@ span {
   display: inline-block;
   text-align: center;
   border-radius: 10px;
+  box-shadow: 0px 2px 1px 0px black;
 }
 
 #top_bar p {
@@ -70,11 +72,18 @@ p{
 }
 
 input {
+  height: 40px;
   margin-left: 10px;
 }
 input::placeholder {
   color: grey;
   text-align: center;
+}
+
+button {
+  margin: 5px;
+  padding: 5px;
+	background-color:	rgb(36,80,118);
 }
 
 #side_nav {
@@ -120,8 +129,8 @@ h2 {
 
 .midboxes {
   width: 380px;
-  padding: 5px;
-  margin-left: 30px;
+  padding: 5px 40px 0px 0px;
+  margin: 0px 10px 0px 10px;
   background-color: white;
   text-align: center;
   display: inline-block;
@@ -142,25 +151,26 @@ h3 {
 
 .midboxes span {
   color: rgb(108,163,210);
+
 }
 
 .midboxes ul {
   text-align: left;
-  vertical-align: top;
 }
 
 
 .midboxes li {
-  margin-left: 70px;
+  list-style: square;
+  margin-left: 60px;
   color: black;
+  text-align:left;
+}
+
+.midboxes li span{
+  margin-left: 20px;
   text-align:center;
 }
 
-
-li span {
-
-
-}
 #footer {
   margin: 0px;
   padding: 40px 0px 10px 0px;
