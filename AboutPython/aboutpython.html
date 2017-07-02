@@ -7,13 +7,13 @@
   </head>
   <body>
     <div id="wrapper">
-      <img src="/python.png" alt="Python">
+      <img src="python.png" alt="Python">
       <div id="top_box">
-        Text Size: <a href="">Normal</a> <a href="">Large</a>
+        Text Size: <a href="">Normal</a> <span>|</span> <a href="">Large</a>
         <div id="search_box">
           <form>
-            <label for="search">Search</label>
-            <input type="text" id="search" name="search"><input type="submit" value="Submit">
+            <label for="search"></label>
+            <input type="text" id="search" name="search" placeholder="Search"><input type="submit" value="Submit">
           </form>
         </div>
       </div>
@@ -49,29 +49,31 @@
           <h1>Readability counts;</h1>
           <h2>The Zen of Python</h2>
       </div>
-      <div class="midboxes">
-        <h3>Getting Started</h3>
-        <p>Python can be easy to pick up whether you're a first time programmer or you're experienced
-          with other languages. The following pages are a useful first step to get on your way writing
-          programs with Python!</p>
-        <ul>
-          <li>Beginner's Guide, Programmers</li>
-          <li>Beginner's Guide, Non-Programmers</li>
-          <li>Code sample and snippets for Beginners</li>
-        </ul>
-      </div>
-      <div class="midboxes">
-        <h3>Applications</h3>
-        <p>The <span>Python Package Index (PyPI)</span> hosts thousands of third-party modules for
-        Python. Both Python's standard library and the community-contributed modules allow for endless
-        possibilities.</p>
-        <ul>
-          <li>Web and Internet Development</li>
-          <li>Database Access</li>
-          <li>Desktop GUIs</li>
-          <li>Network Programming</li>
-          <li>Software and Game Development</li>
-        </ul>
+      <div id="container">
+        <div class="midboxes">
+          <h3>Getting Started</h3>
+          <p>Python can be easy to pick up whether you're a first time programmer or you're experienced
+            with other languages. The following pages are a useful first step to get on your way writing
+            programs with Python!</p>
+          <ul>
+            <li type="square"><span>Beginner's Guide, Programmers</span></li>
+            <li type="square"><span>Beginner's Guide, Non-Programmers</span></li>
+            <li type="square"><span>Code sample and snippets for Beginners<span></li>
+          </ul>
+        </div>
+        <div class="midboxes">
+          <h3>Applications</h3>
+          <p>The <span>Python Package Index (PyPI)</span> hosts thousands of third-party modules for
+          Python. Both Python's standard library and the community-contributed modules allow for endless
+          possibilities.</p>
+          <ul>
+            <li type="square"><span>Web and Internet Development</span></li>
+            <li type="square"><span>Database Access</span></li>
+            <li type="square"><span>Desktop GUIs</span></li>
+            <li type="square"><span>Network Programming</span></li>
+            <li type="square"><span>Software and Game Development</span></li>
+          </ul>
+        </div>
       </div>
       <div id="footer">
         <p>Help and General Contact</p>

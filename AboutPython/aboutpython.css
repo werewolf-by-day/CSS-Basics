@@ -1,4 +1,182 @@
 * {
   margin: 0px;
   padding: 0px;
+  color: white;
+  font-family:sans-serif;
+}
+
+#wrapper {
+  width: 970px;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(36,80,118);
+}
+
+img {
+  width: 360px;
+  display: inline-block;
+  margin: 0px 275px 0px 20px;
+
+}
+
+span {
+  color: black;
+}
+
+#top_box {
+  width: 300px;
+  margin-top: 5px;
+  padding: 0px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: top;
+}
+
+#top_box a {
+  color: rgb(214,187,60);
+  margin-right: 0px 5px 0px 5px;
+}
+
+#search_box {
+  margin: 0px;
+  padding: 15px 30px 15px 30px;
+  align-content: center;
+  background-color: rgb(68,68,68);
+  display:inline-block;
+  border-radius: 10px;
+}
+
+#top_bar {
+  width: 850px;
+  margin: 0px 0px 25px 85px;
+  padding: 10px 0px 10px 0px;
+  background-color: rgb(69,125,173);
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#top_bar p {
+  margin: 0px 20px 0px 20px;
+  font-size: 20px;
+}
+
+p{
+  margin: 0px;
+  padding: 0px;
+  display:inline-block;
+  font-size: 14px;
+}
+
+input {
+  margin-left: 10px;
+}
+input::placeholder {
+  color: grey;
+  text-align: center;
+}
+
+#side_nav {
+  margin-left:140px;
+  text-align: center;
+  display: inline-block;
+  vertical-align:top;
+
+}
+
+#main {
+  width: 620px;
+  margin: 0px;
+  padding: 0px 20px 20px 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+#main p {
+  font-size: 14px;
+}
+
+h1 {
+  color: rgb(232,200,52);
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+  margin-top: 7px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#container {
+  margin: 0px;
+  padding: 5px 0px 10px 70px ;
+  background-color: white;
+  display: flex;
+}
+
+.midboxes {
+  width: 380px;
+  padding: 5px;
+  margin-left: 30px;
+  background-color: white;
+  text-align: center;
+  display: inline-block;
+  border-width: 5px 0px 0px 0px;
+  border-style: solid;
+  border-color: rgb(108,163,210);
+}
+
+h3 {
+  color: black;
+}
+
+.midboxes p {
+  color: black;
+  font-size: 14px;
+  padding: 5px 35px 0px 35px;
+}
+
+.midboxes span {
+  color: rgb(108,163,210);
+}
+
+.midboxes ul {
+  text-align: left;
+  vertical-align: top;
+}
+
+
+.midboxes li {
+  margin-left: 70px;
+  color: black;
+  text-align:center;
+}
+
+
+li span {
+
+
+}
+#footer {
+  margin: 0px;
+  padding: 40px 0px 10px 0px;
+  text-align: center;
+  background: linear-gradient(rgb(36,80,118), rgb(50,116,171));
+  display: block;
+
+}
+
+#footer p {
+  margin: 10px 20px 10px 20px;
+  color: rgb(108,163,210);
+  font-size: 16px;
+}
+
+h5 {
+  color: rgb(108,163,210);
+  font-size: 12px;
 }
